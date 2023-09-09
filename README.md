@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Ed-Tech Site for Microsoft Azure internship
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deploying web appication in static web app
 
-## Available Scripts
+* I have deployed my final year project(Ed-Tech website) to virtual machine.
+* The git repository is cloned in the virtual machine.
+* As we know the we can access the file in /var/www/html path through the public IP address, of VM
+*  So, the entire content of repository is moved to /var/www/html path and then we can see the   deployment through the Public IP address.
 
-In the project directory, you can run:
 
-### `npm start`
+ Microsoft Azure VMs enable the creation of on-demand virtual learning environments for students and educators. These VMs can be pre-configured with specific software, tools, and educational content, providing users with a consistent and standardized learning experience regardless of their device or location. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## LUsing MySql Server
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Logging into the VM I used linux virtual machine to get the things done.
+* All the necessary steps are done in the linux VM terminal .
+  
+Linux VMs provide access to a vast open-source ecosystem, empowering the educational tech website to use and integrate a wide range of software, tools, and frameworks tailored to their educational content. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

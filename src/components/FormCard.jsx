@@ -1,7 +1,7 @@
 // import axios from "axios";
 import React,{ useState } from "react";
 import toast from "react-hot-toast";
-import prismadb from '../lib/prismadb';
+// import prismadb from '../lib/prismadb';
 import axios from "axios";
 const FormCard = () => {
     const [email, setEmail] = useState('');
