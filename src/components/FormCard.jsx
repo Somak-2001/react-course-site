@@ -1,13 +1,39 @@
+// import axios from "axios";
 import React,{ useState } from "react";
-
+import toast from "react-hot-toast";
+import prismadb from '../lib/prismadb';
+import axios from "axios";
 const FormCard = () => {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert('Your problems Submitted. We will take actions on it');
+        const body = {
+            name,
+            email,
+            subject,
+            message
+        }
+        toast.success('Your problems Submitted. We will take actions on it')
+        setName('');
+        setEmail('');
+        setSubject('');
+        setMessage('');
+        // try{
+        //     const newuser = axios.post('/api/users',{
+        //         ...body
+        //     })
+        //     if(newuser){
+        //         toast.success('Your problems Submitted. We will take actions on it');
+        //     }
+        // }
+        // catch(err){
+        //     console.error('Error creating user:', err);
+        //     toast.error("Something went wrong.Please fill up your contact form again");
+        // }
     }
     return (
         <div className="mr-10">

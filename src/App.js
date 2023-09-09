@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Course from './pages/Course';
 import Home from "./pages/Home";
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/course" element={<Course />} />
       </Routes>
       </BrowserRouter>
+      <Toaster />
     </div>
   );
 }
