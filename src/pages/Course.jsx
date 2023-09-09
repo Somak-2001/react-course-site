@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar';
 const cur = [
   {
     id: 1,
@@ -47,21 +47,21 @@ const cur = [
 const Course = () => {
   return (
     <div>
-      <h1>Our Popular Courses</h1>
-      <p>Replenish man have thing gathering lights yielding shall you</p>
+    <Navbar />
+      <h1 className='text-center text-4xl mt-14 mb-8'>Our Popular Courses</h1>
+      <p className='text-center text-xl'>Replenish man have thing gathering lights yielding shall you</p>
       <div>
         <div className='flex flex-wrap'>
           {
-            cur.map((item) => {
+           cur && cur.map((item) => {
               return (
-                <div key={item.id}>
-                <img src={img.image} className='object-cover w-3 h-3'></img>
-                
-                  <div className=' bg-sky-700 rounded-full text-white p-2'>{item.id}</div>
+                <div key={item.id} className='w-[10%] m-10 bg-slate-300 p-4 rounded-md shadow-md cursor-pointer'>
+                <img src={item.image} alt='Subject' className='object-cover w-[100] h-[100]' />
+                  <div className=' bg-sky-700 rounded-full text-white p-3 w-10 h-10'>{item.id}</div>
                   <div className='flex flex-col'>
-                  <div className='text-xl'>{item.subject}</div>
-                  <div className='text-base'>{item.description}</div>
-                  <div className='text-base'>{item.price}</div>
+                  <div className='text-2xl font-semibold w-48'>{item.subject}</div>
+                  <div className='text-base font-serif font-thin'>{item.description}</div>
+                  <div className='text-xl font-bold'>{item.price}</div>
                   </div>
                 </div>
               )
