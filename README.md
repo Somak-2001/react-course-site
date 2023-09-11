@@ -2,18 +2,15 @@
 
 ## Deploying web appication in static web app
 
-* I have deployed my final year project(Ed-Tech website) to virtual machine.
-* The git repository is cloned in the virtual machine.
-* As we know the we can access the file in /var/www/html path through the public IP address, of VM
-*  So, the entire content of repository is moved to /var/www/html path and then we can see the   deployment through the Public IP address.
+* I have deployed my final year project(Ed-Tech website) to static web application.
+* The react website is hosted on azure static web app service
 
+Azure Static Web Apps simplifies the deployment and hosting of static websites and SPAs while offering scalability, security, CI/CD capabilities, and integration with Azure services. It's a useful platform for developers and businesses looking to build and deploy web applications with modern tools and workflows.
 
- Microsoft Azure VMs enable the creation of on-demand virtual learning environments for students and educators. These VMs can be pre-configured with specific software, tools, and educational content, providing users with a consistent and standardized learning experience regardless of their device or location. 
+## Using MySql Flexible Server
 
-## LUsing MySql Server
-
-* Logging into the VM I used linux virtual machine to get the things done.
-* All the necessary steps are done in the linux VM terminal .
+* A flexible mysql server is created in azure.
+* Then sql database is created to store the problems / queries of end-users are facing.
   
-Linux VMs provide access to a vast open-source ecosystem, empowering the educational tech website to use and integrate a wide range of software, tools, and frameworks tailored to their educational content. 
+Azure MySQL Flexible Server provides a fully managed, scalable, and secure platform for hosting MySQL databases. It's a useful service for a wide range of applications, from small-scale web apps to large enterprise systems, and it simplifies database management while offering high availability and integration with other Azure services. 
 
