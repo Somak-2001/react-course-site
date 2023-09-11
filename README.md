@@ -7,7 +7,7 @@
 
 Azure Static Web Apps simplifies the deployment and hosting of static websites and SPAs while offering scalability, security, CI/CD capabilities, and integration with Azure services. It's a useful platform for developers and businesses looking to build and deploy web applications with modern tools and workflows.
 
-## Using MySql Flexible Server
+## Using Azure Sql Server
 
 * A flexible mysql server is created in azure.
 * Then sql database is created to store the problems / queries of end-users are facing.
